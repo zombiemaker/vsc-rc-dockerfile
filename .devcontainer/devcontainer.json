@@ -3,9 +3,10 @@
 {
 	"name": "myLab",
 	// Uncomment the dockerFile you want to use for the development container
-	//"dockerFile": "dockerfiles/ubuntu-20.04.Dockerfile",
+	"dockerFile": "dockerfiles/ubuntu-20.04.Dockerfile",
 	//"dockerFile": "dockerfiles/centos-8.3.2011.Dockerfile",
-	"dockerFile": "dockerfiles/fedora-34.Dockerfile",
+	//"dockerFile": "dockerfiles/ubi-8.4.Dockerfile",
+	//"dockerFile": "dockerfiles/fedora-34.Dockerfile",
     // Assumes that the container image will have the user "me" created
 	"remoteUser": "me",
 	"mounts": [
