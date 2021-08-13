@@ -32,6 +32,7 @@ RUN DEBIAN_FRONTEND="noninteractive" \
 # Network diagnostic tools
 RUN DEBIAN_FRONTEND="noninteractive" \
     apt-get install -y \    
+        iproute2 \
         net-tools \
         iputils-arping \
         iputils-ping \
