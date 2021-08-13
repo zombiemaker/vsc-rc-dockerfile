@@ -1,0 +1,1 @@
+You can place the documentation for your project in this directory...or not :)

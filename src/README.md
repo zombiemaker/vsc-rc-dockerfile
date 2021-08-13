@@ -1,0 +1,1 @@
+You can place the source code for your project in this directory...or not :)
