@@ -40,6 +40,8 @@ RUN DEBIAN_FRONTEND="noninteractive" \
         # Make sure you run docker command with "--cap-add=NET_RAW --cap-add=NET_ADMIN" parameters
         tshark \
     && apt-get clean all \
+    # Configuring tshark for non-root user access
+    && yes yes | DEBIAN_FRONTEND=teletype dpkg-reconfigure wireshark-common \
     && usermod -a -G wireshark me
 
 USER ${USERNAME}

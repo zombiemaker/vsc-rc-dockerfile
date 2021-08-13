@@ -4,8 +4,6 @@
 !.devcontainer
 !.mybashrc
 # This prevents files in the .donotcommit directory from being added to git
-.donotcommit/**
-# This allows the .donotcommit/README.md file to be added
-!.donotcommit/README.md
+.donotcommit
 # The containerfs directory is created when you switch to the development container
 containerfs/**
